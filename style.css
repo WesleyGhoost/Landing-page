@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #050505 16.62%, #1c1c1c 85.61%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.nav {
+    display: flex;
+    gap: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 255, 247);
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo {
+    border-top: 0.8px solid rgba(255, 255, 255, 0.733);
+    margin-bottom: 40px;
+}
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-imagem {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+.conteudo-principal-bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.conteudo-principal-bloco-titulo {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    font-weight: 400px;
+    color: white;
+}
+.conteudo-principal-bloco-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.619);
+}
+.conteudo-principal-bloco-botao {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 180px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.conteudo-principal-bloco-botao:hover {
+    background-color: rgba(0, 0, 0, 0.765);
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.6px solid rgba(255, 255, 255, 0.733);
+    padding-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    margin-bottom: 10px;
+}
+.conteudo-secundario-p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 400px;
+    color: white;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    padding: 32px;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.733);
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 217, 255);
+}
